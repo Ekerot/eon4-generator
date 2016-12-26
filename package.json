@@ -1,18 +1,18 @@
 {
-  "name": "arkham-horror",
+  "name": "eon-generator",
   "version": "1.0.0",
-  "description": "db for arkham horror usin Arkhamdb API ",
+  "description": "Character generator EON 4",
   "main": "server.js",
   "scripts": {
     "test": "test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ekerot/arkhamhorror-web-service.git"
+    "url": "git+https://github.com/Ekerot/eon4-generator.git"
   },
   "keywords": [
-    "arkham",
-    "horror",
+    "EON",
+    "Role-playin game",
     "node.js",
     "express",
     "mongo.db"
@@ -20,9 +20,9 @@
   "author": "Daniel Ekerot",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ekerot/arkhamhorror-web-service/issues"
+    "url": "https://github.com/Ekerot/eon4-generator/issues"
   },
-  "homepage": "https://github.com/Ekerot/arkhamhorror-web-service#readme",
+  "homepage": "https://github.com/Ekerot/eon4-generator/#readme",
   "dependencies": {
     "bcrypt": "^1.0.1",
     "bcrypt-nodejs": "0.0.3",
