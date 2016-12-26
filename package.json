@@ -1,0 +1,38 @@
+{
+  "name": "arkham-horror",
+  "version": "1.0.0",
+  "description": "db for arkham horror usin Arkhamdb API ",
+  "main": "server.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ekerot/arkhamhorror-web-service.git"
+  },
+  "keywords": [
+    "arkham",
+    "horror",
+    "node.js",
+    "express",
+    "mongo.db"
+  ],
+  "author": "Daniel Ekerot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ekerot/arkhamhorror-web-service/issues"
+  },
+  "homepage": "https://github.com/Ekerot/arkhamhorror-web-service#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.2",
+    "materialize-css": "^0.97.8",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.4",
+    "path": "^0.12.7"
+  }
+}

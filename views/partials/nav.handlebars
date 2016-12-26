@@ -1,0 +1,37 @@
+
+<ul id="slide-out" class="side-nav navigator">
+    <li><div class="userView">
+        <div class="background">
+            <img src="images/Helmgast.jpg">
+        </div>
+        <a href="#!user"><img class="circle" src="http://helmgast.se/asset/image/eon_magiut__vande_skisser_copy2.jpg"></a>
+        <a href="#!name"><span class="white-text name">{{session.user.name}}</span></a>
+        <a href="#!email"><span class="white-text email">{{session.user.email}}</span></a>
+    </div></li>
+    <li><a class="waves-effect" href="#!">Skapa karraktär</a></li>
+    <li><a class="waves-effect" href="#!">Sparade karraktärer</a></li>
+    <br>
+    <li><div class="divider"></div></li>
+    <div class="login-container">
+        {{#if sesion.user}}
+
+            <a href="logout/" class="register, waves-effect waves-light btn">Logout</a>
+
+        {{else}}
+
+            <br>
+            <form class="login-form" method="post" action="/login/">
+                <input class="username" type="text" name="username" value="" placeholder="username"><br>
+                <input class="password" type="password" name="password" value="" placeholder="password"><br>
+                <button class="login-button, waves-effect waves-light btn">Login</button>
+            </form>
+
+            <li><div class="divider"></div></li>
+
+            <a href="register/" class="register waves-effect waves-light btn">Registrera!</a>
+
+        {{/if}}
+    </div>
+</ul>
+
+<a href="#" data-activates="slide-out" class="button-collapse"><img class= "logga" src="images/eonlogga.png" alt="logga for the roleplaying gam eon" /></a>

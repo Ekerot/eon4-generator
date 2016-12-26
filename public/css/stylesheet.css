@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+.bakgrund{
+    position: absolute;
+    height: 50%;
+    bottom:0px;
+    right:0px;
+
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logga{
+    position: absolute;
+    height: 10%;
+}
+
+.login-form{
+    width: 70%;
+    margin-left: 20px;
+}
+
+.register{
+    width: 90%;
+    margin-left: 10px;
+    font-size: small;
+    position: absolute;
+    bottom:0px;
+}
+
+.navigator{
+    height: 100vh;
+
+}
